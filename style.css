@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header-nav {
+    background: white;
+}
+.nav {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.list {
+    display: flex;
+}
+.link {
+    color: black;
+    font-size: 18px;
+    font-family:'Roboto';
+    font-style: normal;
+    line-height: 21px;
+    text-align: right;
+    transition: 0.5s;
+    margin: 10px;
+}
+.link:hover {
+    color: #EF4423;
+  }
+  .logo {
+      margin: 8px;
+  }
+  .header-logo{
+    height: 272px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .main {
+    display: flex;
+  }
+  .main-card {
+    background: #B71C1C;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+  }
+  .main-card2{
+    background: #6A1B9A;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-card3{
+    background: #303F9F;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-card4{
+    background: #00695C;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-title {
+    color: #FFFFFF;
+    margin: 8px 15px;
+    font-size: 19px;
+    line-height: 22px;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+  .right-description{
+    color: #EBEBEB;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    margin: 8px 15px;
+    margin-bottom: 3px;
+  }
+  .cards{
+    display: flex;
+  }
+  .mm {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-p{
+    display: flex;
+    background: #EDEDED;
+  }
+  .glav {
+  color: #3A3838;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin: 40px auto;
+  }
+  .obzor {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .obzor-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3A3838;
+  margin: 3px;
+  margin-bottom: 6px;
+  }
+  .obzor-des {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #686868;
+  width: 500px;
+height: 398px;
+ }
+ .img {
+   flex-grow: 1;
+ }
+ .footer {
+  background: #3A3838;
+ }
+ .link1 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family:'Roboto';
+  font-style: normal;
+  line-height: 21px;
+  text-align: right;
+  transition: 0.5s;
+  margin: 10px;
+ }
+ .link1:hover {
+  color: #EF4423;
+}
+.logo1 {
+  padding: 15px;
+}
